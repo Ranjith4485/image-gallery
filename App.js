@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./header";
+import Student from "./student";
+import Footer from "./footer";
 
 function App() {
   return (
-   <div >
-    <h1> hello,react
-    </h1>
-<p>my first react application</p>
-</div>
-
-   
+    <div>
+      <Header />
+      <Student />
+      <Footer />
+    </div>
   );
 }
 
